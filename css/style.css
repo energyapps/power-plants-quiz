@@ -413,24 +413,27 @@ Map
         }
 
         .a-options {
-            padding-top: 25px;
-            padding-bottom: 25px;            
-            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;            
+            font-size: 16px;
         }
 
         .a-bg {
-            padding-top: 25px;
-            padding-bottom: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             background-color: #bbb;                    
             cursor: pointer;
 /*            line-height: normal;
             position: relative;*/
-            text-decoration: none !important;
-            text-align: center;
+            text-decoration: none !important;            
             -webkit-appearance: none;
             -webkit-border-radius: 0;
             /*display: inline-block;           */
             transition: background-color 300ms ease-out;
+        }
+
+        .a-bg p {
+            text-align: left;
         }
 
         /*.a-bg h2 {
