@@ -84,7 +84,7 @@ Map
         }
 
         .rowDOE h3 {
-            font-size: 26px;
+            font-size: 23px;
             color: #fff !important;
             margin-top: 0.5rem;
             margin-bottom: 0.6rem;
@@ -130,7 +130,8 @@ Map
         }       
 
         .subheadline p {
-            text-align: center;
+            text-align: left;
+            padding-left: 10px;
             font-size: 20px;            
             margin: 0 !important;
             line-height: normal;
@@ -431,6 +432,14 @@ Map
             -webkit-border-radius: 0;
             /*display: inline-block;           */
             transition: background-color 300ms ease-out;
+        }
+
+        .a-bg.correct.active {
+            background-color: rgb(140,198,63);
+        }
+
+        .a-bg.active {
+            background-color: #ED4D61;
         }
 
         .a-bg p {
