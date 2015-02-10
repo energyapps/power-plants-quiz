@@ -421,9 +421,10 @@ Map
         }
 
         .a-bg {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-color: #bbb;                    
+            border: 5px solid transparent;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(221,221,221);                    
             cursor: pointer;
 /*            line-height: normal;
             position: relative;*/
@@ -436,6 +437,10 @@ Map
 
         .a-bg.correct.active {
             background-color: rgb(140,198,63);
+        }
+
+        .a-bg.correct.inactive {
+            border-color: rgb(140,198,63);
         }
 
         .a-bg.active {

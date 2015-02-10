@@ -21,7 +21,7 @@ for (var i = 0; i < data.length; i++) {
 	shuffle(raw)
 
 	// set content to have answers in them
-	var content = '<div class="question-individual"><div class="rowDOE full-size-blocks" ><div class="large-12 columnsDOE sub-blocks-full map-image"><div class="inner-text q-number">' + (i + 1) +
+	var content = '<div data-id="' + i + '" id="question' + (i+1) + '" class="question-individual"><div class="rowDOE full-size-blocks" ><div class="large-12 columnsDOE sub-blocks-full map-image"><div class="inner-text q-number">' + (i + 1) +
 	'.</div></div></div><div class="rowDOE"><div class="large-12 medium-12 small-12"><div class="question subheadline"><p>' +
 	data[i].question +
 	'</p></div><div class="rowDOE"><div class="small-12 small-centered columnsDOE"><div class="rowDOE answers_block"><div class="large-6 columnsDOE halves"><div class="medium-6 small-12 columnsDOE a-options"><div class="rowDOE"><div class="large-11 medium-11 small-11 small-centered columnsDOE a-bg q' + (i+1) + ' ' + raw[0].correct + '" data-id=' + i + '><p>' +
@@ -56,17 +56,20 @@ for (var k = 0; k < NumOfQuestions; k++) {
 //clicking the first time per question causes a question to be answered. after that it does nothing. (see if statement inside)
 $('.a-bg').click(function (e) {
 	var current_q = $(this).attr("data-id")
+	var qn = (parseInt(current_q)  + 1);
 
 	if (QuestionIndex[current_q] === 0) {
 		//should be first click
 		$(this).addClass('active');
 		QuestionIndex[current_q]+=1;
-	
 
 		if ($(this).hasClass('correct')) {
 			TotalCorrect+=1;
+		} else {
+			$(".correct.q" + qn).addClass('inactive');
 		};
 		
+		// Results go up one number
 		$('#result').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
 
 		//Do something when it gets to N questions
