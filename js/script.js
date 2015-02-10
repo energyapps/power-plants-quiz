@@ -1,5 +1,8 @@
 // some variables
 var NumOfQuestions = data.length;
+var QuestionIndex = []; // array of 0's and iteratate through based on order of questions in the dom.....
+var TotalAnswered = 0; //begin with 0 answered questions
+var TotalCorrect = 0;
 
 // Shuffle Function
 function shuffle(o){ //v1.0
@@ -46,9 +49,6 @@ for (var i = 0; i < data.length; i++) {
 // if index == 0 change the final number
 // when index of all indexes equals total number of questions  
 
-// array of 0's and iteratate through based on order of questions in the dom.....
-var QuestionIndex = [];
-
 for (var k = 0; k < NumOfQuestions; k++) {
 	QuestionIndex.push(0);
 };
@@ -61,6 +61,20 @@ $('.a-bg').click(function (e) {
 		//should be first click
 		$(this).addClass('active');
 		QuestionIndex[current_q]+=1;
+	
+
+		if ($(this).hasClass('correct')) {
+			TotalCorrect+=1;
+		};
+		
+		$('#result').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
+
+		//Do something when it gets to N questions
+		TotalAnswered +=1;
+		if (TotalAnswered === NumOfQuestions) {
+			console.log('all clicked')
+			//do something at the end. some sort of function to show how smart everyone is.
+		};
 	};
 });
 
@@ -68,7 +82,12 @@ $('.a-bg').click(function (e) {
 
 // on each click of button, change total correct/incorrect number....use that as a trigger
 
-
-
+(function ($) { 
+	$(document).ready(function() { 
+		
+		// on load, display 0 out of N
+		$('#result').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
+	});
+}(jQuery));  
 
 
