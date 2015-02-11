@@ -116,7 +116,9 @@ Map
             padding-top: 14px;
             padding-left: 20px;
             background-color: #fff;
+            /*position: absolute;*/
         }
+
 /*
         .rowDOE .inner-text.q-number {position: absolute;}
         .rowDOE .inner-text.large-8 {position: absolute;}*/
@@ -129,9 +131,10 @@ Map
             color: #fff !important;
         }       
 
-        .subheadline p {
+        .context-info p,.subheadline p {
             text-align: left;
             padding-left: 10px;
+            padding-right: 10px;
             font-size: 20px;            
             margin: 0 !important;
             line-height: normal;
@@ -160,6 +163,23 @@ Map
 
         .subheadline {
             background-color: rgb(197,225,159); 
+        }
+
+        .rowDOE .context-info {
+            padding-top: 0px;
+        }
+
+        .context-container {
+            display: none;
+        }
+
+        .context-container.active {
+            display: block;
+        }
+
+        .context-info {
+            /*background-color: rgb(168,212,110);*/
+            background-color: transparent;
         }
 
         .triple {
@@ -398,13 +418,17 @@ Map
             background-repeat: no-repeat;*/
             background-color: rgb(221,221,221);
             /*overflow:hidden;*/
+            padding: 0px;
         }
 
-        .map-image img {
-                        /*width: 100%;*/
+        .map-image img {                        
             margin: 0 auto;
             display: block;
             height: auto;
+        }
+
+        .map-image img.force-full {
+            width: 100%;
         }
 
         .answers_block {
@@ -580,7 +604,7 @@ Map
             padding-bottom: 0.5rem;
             letter-spacing: .05rem;
         }
-        .subheadline p {
+        .context-info p,.subheadline p {
             font-size: 17px;
             padding-top: .25rem;
             padding-bottom: .25rem
