@@ -136,8 +136,8 @@ Map
             margin: 0 !important;
             line-height: normal;
             color: rgb(68,68,68) !important;
-            padding-top: .3rem !important; 
-            padding-bottom: .3rem !important;
+            padding-top: 8px !important; 
+            padding-bottom: 8px !important;
             font-family: "Avenir LT W02 35 Light",verdana,sans-serif;
             border-bottom: none !important;
         }       
@@ -393,20 +393,18 @@ Map
         /*Marty McFly*/
         .map-image {
             /*background-image:url('/img/backandclock.jpg');*/
-            background-image:url('../img/production.png');
+/*            background-image:url('../img/production.png');
             background-position: 50% 10%;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat;*/
             background-color: rgb(221,221,221);
             /*overflow:hidden;*/
         }
 
-        #delorean {
-            position: absolute;
-            bottom: 10px;
-            width: 394px;
-            height: 137px;
-            left: 150px;
-            z-index: 11;
+        .map-image img {
+                        /*width: 100%;*/
+            margin: 0 auto;
+            display: block;
+            height: auto;
         }
 
         .answers_block {
@@ -415,8 +413,11 @@ Map
         }
 
         .a-options {
-            padding-top: 10px;
-            padding-bottom: 10px;            
+            /*padding-top: 10px;
+            padding-bottom: 10px;      */    
+            padding-left: 0rem;
+            padding-right: 0rem;       
+            padding-bottom: 0.56rem;  
             font-size: 16px;
         }
 
@@ -424,6 +425,7 @@ Map
             border: 5px solid transparent;
             padding-top: 5px;
             padding-bottom: 5px;
+            padding-left: 5px;
             background-color: rgb(221,221,221);                    
             cursor: pointer;
 /*            line-height: normal;
@@ -488,11 +490,6 @@ Map
         .tooltip {
             background-color: #888 ;
         }
-
-        #flight {
-            color: #333 !important;
-            text-shadow: 1px 1px 1px #888888;
-        }
     
     #result p {
         text-align: center;
@@ -544,12 +541,35 @@ Map
             padding-right: 0px;         
             padding-left: 0.56rem;
         }
+
+        .a-options:first-child {
+            padding-right: 0.4rem;
+        }
+
+        .a-options:last-child {
+            padding-left: 0.4rem; 
+        }
+/*        .halves .a-options {
+            padding-right: 1rem;
+        }*/
+
+
     } /* min-width 641px, medium screens */
 @media only screen and (min-width: 64.063em) { 
         .dropdown {
             padding-left: 0.9375rem;
             padding-right: 0.9375rem;
         }
+        .a-options {
+            padding-right: 0.4rem; 
+            padding-left: 0.4rem;
+        }
+        .a-options.last-c {
+            padding-right: 0rem;         
+        }
+        .a-options.first-c {
+            padding-left: 0rem;         
+        }        
     } /* min-width 1025px, large screens */
 
 
@@ -562,8 +582,8 @@ Map
         }
         .subheadline p {
             font-size: 17px;
-            padding-top: .2rem;
-            padding-bottom: .2rem
+            padding-top: .25rem;
+            padding-bottom: .25rem
         }
         
         .rowDOE h3 {
@@ -586,25 +606,10 @@ Map
             height: 300px
         }
 
-        #back2future {
-            height: 450px;
-        }
-
         .rowDOE .inner-text {
             font-size: 18px !important;
             line-height: 18px !important; 
             letter-spacing: 0rem;
-        }
-
-        #delorean {
-            width: 197px;
-            height: 69px;
-        }
-
-        #flames {
-            width: 208px;
-            height: 25px;  
-            bottom: 10px;
         }
 
 }
