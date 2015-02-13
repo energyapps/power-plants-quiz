@@ -318,27 +318,22 @@ Map
             padding-right: 0px;
         }
         /*
-        .button1:hover {
+        #results:hover {
             cursor: pointer;
             background-color: rgb(197,225,159);  
         }
 
-        .button1 h1:hover {
+        #results h1:hover {
             text-decoration: none !important;
         }*/
-        .button1 {
-            width: 100%;
+        #results {
             border-style: solid;
             border-width: 0px;
-            cursor: pointer;
             line-height: normal;
-            /*margin: 0 0 1.25rem;*/
-            position: relative;
             text-decoration: none !important;
             text-align: center;
             -webkit-appearance: none;
             -webkit-border-radius: 0;
-            display: inline-block;
             /*padding-top: 1rem;
             padding-right: 2rem;
             padding-bottom: 1.0625rem;
@@ -355,8 +350,9 @@ Map
             user-select: none;*/
         }
 
-        .button1 h2 {
+        #results h1 {
             text-transform: uppercase !important;
+            color: #fff !important;
             /*color: rgb(51,51,51)*/
 
         }
@@ -365,10 +361,17 @@ Map
         margin-bottom: 10px !important; 
         }
 
-        .button1:hover {
-            cursor: pointer;
+        #results:hover {
             background-color: rgb(0,112,149); 
             transition: background-color 300ms ease-out;
+        }
+
+        #result-text {
+            display: none;
+        }
+
+        #result-text.active {
+            display: block;
         }
 
         /*Scroll bar*/
@@ -515,7 +518,7 @@ Map
             background-color: #888 ;
         }
     
-    #result p {
+    #result_text p {
         text-align: center;
         padding: 0px;
         margin: 0px;

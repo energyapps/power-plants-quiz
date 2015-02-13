@@ -91,22 +91,16 @@ $('.a-bg').click(function (e) {
 		};
 		
 		// Results go up one number
-		$('#result').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
-
-		//ADD THAT ON CLICK IT SHOWS UP THE CONTEXT INFO!!!!!! ADD "ACTIVE" to context-container in css
-
-		$( "input[value='Hot Fuzz']" ).next().text( "Hot Fuzz" );
+		$('#results').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
 
 		var cntx = '#c' + current_q;
-		var cntx2 = '#c1'
 
 		$(cntx).addClass('active');
 
 		//Do something when it gets to N questions
 		TotalAnswered +=1;
 		if (TotalAnswered === NumOfQuestions) {
-			// console.log('all clicked')
-			//do something at the end. some sort of function to show how smart everyone is.
+			$('#result-text').addClass('active');
 		};
 	};
 });
@@ -119,7 +113,7 @@ $('.a-bg').click(function (e) {
 	$(document).ready(function() { 
 		
 		// on load, display 0 out of N
-		$('#result').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
+		$('#results').html("<h1>" + TotalCorrect + "/" + NumOfQuestions + "</h1>")
 	});
 }(jQuery));  
 
