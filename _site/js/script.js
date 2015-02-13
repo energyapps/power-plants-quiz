@@ -32,7 +32,7 @@ for (var i = 0; i < data.length; i++) {
 		if (data[i].cont === "") {
 			var contInfo = "";
 		} else {
-			var contInfo = '<div class="rowDOE context-container"><div class="context-info"><p>' +
+			var contInfo = '<div id="c' + i + '" class="rowDOE context-container"><div class="context-info"><p>' +
 			data[i].cont +
 			'</p></div></div>';
 		};
@@ -74,7 +74,9 @@ for (var k = 0; k < NumOfQuestions; k++) {
 
 //clicking the first time per question causes a question to be answered. after that it does nothing. (see if statement inside)
 $('.a-bg').click(function (e) {
+	e.preventDefault();
 	var current_q = $(this).attr("data-id")
+
 	var qn = (parseInt(current_q)  + 1);
 
 	if (QuestionIndex[current_q] === 0) {
@@ -93,25 +95,17 @@ $('.a-bg').click(function (e) {
 
 		//ADD THAT ON CLICK IT SHOWS UP THE CONTEXT INFO!!!!!! ADD "ACTIVE" to context-container in css
 
+		$( "input[value='Hot Fuzz']" ).next().text( "Hot Fuzz" );
 
+		var cntx = '#c' + current_q;
+		var cntx2 = '#c1'
 
-
-
-
-
-
-
-
-
-
-
-
-
+		$(cntx).addClass('active');
 
 		//Do something when it gets to N questions
 		TotalAnswered +=1;
 		if (TotalAnswered === NumOfQuestions) {
-			console.log('all clicked')
+			// console.log('all clicked')
 			//do something at the end. some sort of function to show how smart everyone is.
 		};
 	};
