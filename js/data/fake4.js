@@ -86,7 +86,7 @@ var data = [
     "ans2":"You know, segways just look foolish.",
     "ans3":"[His shoes] were basically the duck version of vibrams",
     "ans4":"Indignantly: \"Bach didn't write a requiem, but he did write a beautiful mass in B minor\"",
-    "img":"img/ben.jpg",
+    "img":"/img/ben.jpg",
     "cont":"One time, Sugarbear Dotson got so lonesome, he nearly cried."
   },
   {
