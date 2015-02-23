@@ -16,7 +16,7 @@ This quiz template is built using the [Foundation](http://foundation.zurb.com/) 
 
 - Rename the folder to your project name
 
-`mv app_frame/ new_directory_name/`
+`mv quiz-template/ new_directory_name/`
 
 - On the [EnergyApps Github group](https://github.com/energyapps) create and name a new project repo, using "QUIZ" in the title.
 - cd into that folder in terminal and change remote URL to new repo:
