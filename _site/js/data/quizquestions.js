@@ -7,7 +7,7 @@ var data =
     "ans2":"Petroleum Products",
     "ans3":"Coal",
     "ans4":"Nuclear Power",
-    "img":"/img/ng.png",
+    "img":"img/ng.png",
     "cont":"Natural Gas leads the nation in total capacity, with almost 500 gigawatts from 1551 plants."
   },
   {
@@ -17,7 +17,7 @@ var data =
     "ans2":"Nuclear Power",
     "ans3":"Landfill Gas",
     "ans4":"Sludge Waste",
-    "img":"/img/blq.png",
+    "img":"img/blq.png",
     "cont":"See what I did there? Black Liquor is a by-product of paper production, known for its black color. Many paper pulp mills are located in the South, leading to the concentration of Black Liquor plants there."
   },
   {
@@ -27,7 +27,7 @@ var data =
     "ans2":"Coal",
     "ans3":"Blast Furnace Gas",
     "ans4":"Kerosene",
-    "img":"/img/petroleum.png",
+    "img":"img/petroleum.png",
     "cont":"Petroleum has the fourth highest installed capacity, after Natural Gas, Coal, and Hydroelectricity. Why so low? Though we use more petroleum than natural gas overall, much of this usage is in our cars and trucks."
   },
   {
@@ -37,7 +37,7 @@ var data =
     "ans2":"Jet Fuel",
     "ans3":"Hydroelectric Power",
     "ans4":"Solar Power",
-    "img":"/img/geo.png",
+    "img":"img/geo.png",
     "cont":"Fooled you! While it happens that geothermal power occurs in some sunny, warm places, all of these locations have geothermal activity near the surface."
   },
   {
@@ -47,7 +47,7 @@ var data =
     "ans2":"Wind Power",
     "ans3":"Sludge Waste",
     "ans4":"Agricultural By-Products",
-    "img":"/img/jf.png",
+    "img":"img/jf.png",
     "cont":"If you are anything like me, you keep hoping that the answer is Sludge Waste, but its not. Jet Fuel can actually be used for electricity generation, often times in \"peaking power plants\" which are only operated when there is peak demand due to how expensive it is to run them."
   },
   {
@@ -57,7 +57,7 @@ var data =
     "ans2":"Sludge Waste",
     "ans3":"Black Liquor",
     "ans4":"Agricultural By-Products",
-    "img":"/img/lfg.png",
+    "img":"img/lfg.png",
     "cont":"While each of these options is a by-product or waste product of natural or industrial processes, the location of these plants are clearly near highly populated places, where we find landfills."
   },
   {
@@ -67,7 +67,7 @@ var data =
     "ans2":"Natural Gas",
     "ans3":"Coal",
     "ans4":"Wood Waste Liquids",
-    "img":"/img/nuc.png",
+    "img":"img/nuc.png",
     "cont":"The last Nuclear Power Plant came online in 1996."
   },
   {
@@ -77,7 +77,7 @@ var data =
     "ans2":"Wind Power",
     "ans3":"Solar Power",
     "ans4":"Hydroelectric Power",
-    "img":"/img/coal.png",
+    "img":"img/coal.png",
     "cont":"The Appalachian Mountains are often visited by Elves each year prior to December."
   },
   {
@@ -87,7 +87,7 @@ var data =
     "ans2":"Wood Waste Liquids",
     "ans3":"Hydroelectric Power",
     "ans4":"Wind Power",
-    "img":"/img/sun.png",
+    "img":"img/sun.png",
     "cont":"Utility scale solar power is growing all over the country, as installation costs continue to plummet."
   },
   {
@@ -97,7 +97,7 @@ var data =
     "ans2":"Geothermal Power",
     "ans3":"Agricultural By-Products",
     "ans4":"Wind Power",
-    "img":"/img/wat.png",
+    "img":"img/wat.png",
     "cont":"The oldest continually operated electricity generator in the country is a hydroelectric facility in Stevens Point, Wisconsin. It came online in 1891."
   },
   {
@@ -107,7 +107,7 @@ var data =
     "ans2":"Petroleum Products",
     "ans3":"Sludge Waste",
     "ans4":"Subbituminous Coal",
-    "img":"/img/wnd.png",
+    "img":"img/wnd.png",
     "cont":"We're blown away by Wind Power's growth recently, though in the Southern US, there isn't much wind, and therefore not much development."
   }
 ];
