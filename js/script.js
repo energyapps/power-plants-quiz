@@ -97,10 +97,21 @@ $('.a-bg').click(function (e) {
 
 		$(cntx).addClass('active');
 
+		console.log(TotalCorrect)
+
 		//Do something when it gets to N questions
 		TotalAnswered +=1;
 		if (TotalAnswered === NumOfQuestions) {
-			$('#result-text').addClass('active');
+			if (TotalCorrect < 4) {
+				$('#okay').addClass('active');
+ 			} else if (TotalCorrect < 7) {
+				$('#good').addClass('active');
+			} else if (TotalCorrect < 11) {
+				$('#great').addClass('active');
+			} else {
+				$('#perfect').addClass('active');
+			};
+			// $('#result-text').addClass('active');
 		};
 	};
 });

@@ -366,11 +366,11 @@ Map
             transition: background-color 300ms ease-out;
         }
 
-        #result-text {
+        .result-text {
             display: none;
         }
 
-        #result-text.active {
+        .result-text.active {
             display: block;
         }
 
@@ -498,8 +498,9 @@ Map
 
         .tweener {
             padding-top: 0px;
-            height: 5px;
-            background-color: rgb(140,198,63); 
+            height: 25px;
+            /*background-color: rgb(140,198,63); */
+            background-color: #fff;
         }
 
         span.nub {
