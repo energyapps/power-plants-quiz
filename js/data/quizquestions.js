@@ -8,17 +8,17 @@ var data =
     "ans3":"Coal",
     "ans4":"Nuclear Power",
     "img":"img/ng.png",
-    "cont":"Natural Gas leads the nation in total capacity, with almost 500 gigawatts from 1551 plants."
+    "cont":"Natural gas leads the nation in total capacity, with almost 500 gigawatts from 1,551 plants. "
   },
   {
     "id":2,
-    "question":"Though found primarily in the South, we may need \"proof\" that this fuel source is consumed above board.",
+    "question":"Found primarily in the South, we may need \"proof\" that this fuel source is consumed appropriately.",
     "ans1":"Black Liquor",
     "ans2":"Nuclear Power",
     "ans3":"Landfill Gas",
     "ans4":"Sludge Waste",
     "img":"img/blq.png",
-    "cont":"See what I did there? Black Liquor is a by-product of paper production, known for its black color. Many paper pulp mills are located in the South, leading to the concentration of Black Liquor plants there."
+    "cont":"\nBlack liquor is a by-product of paper production. Many mills burn it  as a primary source of their electricity. As a result, the paper pulp industry is one of our country's the more carbon-neutral industries."
   },
   {
     "id":3,
@@ -28,7 +28,7 @@ var data =
     "ans3":"Blast Furnace Gas",
     "ans4":"Kerosene",
     "img":"img/petroleum.png",
-    "cont":"Petroleum has the fourth highest installed capacity, after Natural Gas, Coal, and Hydroelectricity. Why so low? Though we use more petroleum than natural gas overall, much of this usage is in our cars and trucks."
+    "cont":"Petroleum has the fourth highest installed capacity, after natural gas, coal and hydroelectricity. Why so low? Though we use more petroleum than natural gas overall, much of this usage is in our cars and trucks."
   },
   {
     "id":4,
@@ -38,7 +38,7 @@ var data =
     "ans3":"Hydroelectric Power",
     "ans4":"Solar Power",
     "img":"img/geo.png",
-    "cont":"Fooled you! While it happens that geothermal power occurs in some sunny, warm places, all of these locations have geothermal activity near the surface."
+    "cont":"Fooled you! While it happens that geothermal power resources are located in some sunny, warm places, all of these locations have geothermal activity near the surface."
   },
   {
     "id":5,
@@ -48,7 +48,7 @@ var data =
     "ans3":"Sludge Waste",
     "ans4":"Agricultural By-Products",
     "img":"img/jf.png",
-    "cont":"If you are anything like me, you keep hoping that the answer is Sludge Waste, but its not. Jet Fuel can actually be used for electricity generation, often times in \"peaking power plants\" which are only operated when there is peak demand due to how expensive it is to run them."
+    "cont":"We know: you keep hoping that the answer is sludge waste, but it's not. Jet fuel can be used for electricity generation, mainly in power plants that are only operated during times of peak demand due to how expensive it is to run them."
   },
   {
     "id":6,
@@ -58,7 +58,7 @@ var data =
     "ans3":"Black Liquor",
     "ans4":"Agricultural By-Products",
     "img":"img/lfg.png",
-    "cont":"While each of these options is a by-product or waste product of natural or industrial processes, the location of these plants are clearly near highly populated places, where we find landfills."
+    "cont":"Landfill gas is methane that is captured at landfill sites, refined and burned to create electricity. Capturing methane has grown in popularity in recent years, as it is a far more potent greenhouse gas than carbon dioxide -- its by-product when burned."
   },
   {
     "id":7,
@@ -68,7 +68,7 @@ var data =
     "ans3":"Coal",
     "ans4":"Wood Waste Liquids",
     "img":"img/nuc.png",
-    "cont":"The last Nuclear Power Plant came online in 1996."
+    "cont":"The last nuclear power plant came online in 1996."
   },
   {
     "id":8,
@@ -78,17 +78,17 @@ var data =
     "ans3":"Solar Power",
     "ans4":"Hydroelectric Power",
     "img":"img/coal.png",
-    "cont":"The Appalachian Mountains are often visited by Elves each year prior to December."
+    "cont":""
   },
   {
     "id":9,
-    "question":"Seems like Massachusetts, New Jersey, and North Carolina are in love with this, but don't let that fact deceive you.",
+    "question":"Seems like Massachusetts, New Jersey and North Carolina are all in love with this power source, but don't let that fact deceive you.",
     "ans1":"Solar Power",
     "ans2":"Wood Waste Liquids",
     "ans3":"Hydroelectric Power",
     "ans4":"Wind Power",
     "img":"img/sun.png",
-    "cont":"Utility scale solar power is growing all over the country, as installation costs continue to plummet."
+    "cont":"Though itÕs growing rapidly on the East Coast as installation costs continue to plummet, utility-scale solar power is still strongest in the Southwest, where sunny days are plentiful and hot."
   },
   {
     "id":10,
@@ -102,12 +102,12 @@ var data =
   },
   {
     "id":11,
-    "question":"This fuel source has grown like gang-busters in the last few years, particularly in Iowa, Texas, and Oklahoma.",
+    "question":"This fuel source has grown by leaps and bounds in the last few years, particularly in Iowa, Texas and Oklahoma.",
     "ans1":"Wind Power",
     "ans2":"Petroleum Products",
     "ans3":"Sludge Waste",
     "ans4":"Subbituminous Coal",
     "img":"img/wnd.png",
-    "cont":"We're blown away by Wind Power's growth recently, though in the Southern US, there isn't much wind, and therefore not much development."
+    "cont":"We're blown away by wind power's growth recently, though in the Southern U.S. there isn't much wind, and therefore not much development."
   }
 ];

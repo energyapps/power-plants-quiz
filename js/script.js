@@ -57,7 +57,10 @@ for (var i = 0; i < data.length; i++) {
 
 	//add content with shuffled answers to the DOM
 			// Can also change image, bind addtiontal context here.
+(function ($) { 
 	$( "#questions-container" ).append( $(content2) );
+}(jQuery));  
+
 };
 
 //////-----------------////////
@@ -72,6 +75,7 @@ for (var k = 0; k < NumOfQuestions; k++) {
 	QuestionIndex.push(0);
 };
 
+(function ($) { 
 //clicking the first time per question causes a question to be answered. after that it does nothing. (see if statement inside)
 $('.a-bg').click(function (e) {
 	e.preventDefault();
@@ -97,14 +101,12 @@ $('.a-bg').click(function (e) {
 
 		$(cntx).addClass('active');
 
-		console.log(TotalCorrect)
-
 		//Do something when it gets to N questions
 		TotalAnswered +=1;
 		if (TotalAnswered === NumOfQuestions) {
 			if (TotalCorrect < 4) {
 				$('#okay').addClass('active');
- 			} else if (TotalCorrect < 7) {
+ 			} else if (TotalCorrect < 8) {
 				$('#good').addClass('active');
 			} else if (TotalCorrect < 11) {
 				$('#great').addClass('active');
@@ -115,6 +117,7 @@ $('.a-bg').click(function (e) {
 		};
 	};
 });
+}(jQuery));  
 
 
 
