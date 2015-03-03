@@ -240,16 +240,22 @@ Map
         }
 
 /*Was .middle-block p*/
-        p {       
-            border-bottom: none !important;     
+        .a-bg p, .score p {                   
             margin:0px !important;
-            text-align: center;
-            color: rgb(12,15,8) !important;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size: 18px;
             font-weight: bold;
             font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+            color: rgb(12,15,8) !important;
+            border-bottom: none !important;     
+            text-align: center;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+            font-size: 17px;
+            
+        }
+
+        .score p {
+            font-size: 15px;
+            text-align: center !important;
         }
 
         .green {
