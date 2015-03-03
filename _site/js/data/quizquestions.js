@@ -18,7 +18,7 @@ var data =
     "ans3":"Landfill Gas",
     "ans4":"Sludge Waste",
     "img":"img/blq.png",
-    "cont":"\nBlack liquor is a by-product of paper production. Many mills burn it  as a primary source of their electricity. As a result, the paper pulp industry is one of our country's the more carbon-neutral industries."
+    "cont":"\nBlack liquor is a by-product of paper production. Many mills burn it  as a primary source of their electricity. As a result, the paper pulp industry is one of our country's more carbon-neutral industries."
   },
   {
     "id":3,
@@ -68,7 +68,7 @@ var data =
     "ans3":"Coal",
     "ans4":"Wood Waste Liquids",
     "img":"img/nuc.png",
-    "cont":"The last nuclear power plant came online in 1996."
+    "cont":"The most recent new nuclear power plant came online in 1996."
   },
   {
     "id":8,
@@ -88,7 +88,7 @@ var data =
     "ans3":"Hydroelectric Power",
     "ans4":"Wind Power",
     "img":"img/sun.png",
-    "cont":"Though itÕs growing rapidly on the East Coast as installation costs continue to plummet, utility-scale solar power is still strongest in the Southwest, where sunny days are plentiful and hot."
+    "cont":"Though it's growing rapidly on the East Coast as installation costs continue to plummet, utility-scale solar power is still strongest in the Southwest, where sunny days are plentiful and hot."
   },
   {
     "id":10,
