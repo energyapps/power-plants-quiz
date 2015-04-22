@@ -103,7 +103,22 @@ $('.a-bg').click(function (e) {
 
 		//Do something when it gets to N questions
 		TotalAnswered +=1;
-		if (TotalAnswered === NumOfQuestions) {
+		// if (TotalAnswered === NumOfQuestions) {
+		if (TotalAnswered === 1) {
+			var facelink = "";
+			var twitterlink = "http://twitter.com/home?status=";
+			var message = "I got X/X questions right on @energy's power plant quiz. Test your knowledge and see how you stack up http://bit.ly/PowerPlantsQuiz"
+			var uri = encodeURI(message);
+			console.log(uri)
+			console.log(twitterlink + uri)
+
+			// add in social buttons and scores text
+			$('#social-buttons').addClass('active')
+			$("#facebook-quiz a").attr("href", facelink)
+			$("#twitter-quiz a").attr("href", twitterlink + uri)
+
+
+		// if (TotalAnswered === 1) {
 			if (TotalCorrect < 4) {
 				$('#okay').addClass('active');
  			} else if (TotalCorrect < 8) {

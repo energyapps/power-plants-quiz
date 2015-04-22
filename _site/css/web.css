@@ -1,0 +1,672 @@
+
+
+/*Fold*/
+#fold {
+    z-index: 30000;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+/*fallback*/
+.fallback {
+    display: none;
+  }
+
+.f-dropdown li {
+    color: rgb(68,68,68) !important;
+}
+
+/********************************************
+
+    Styles to be added to energy.gov in order 
+    to allow it to look however you want it.
+    Reminder: make it responsive
+
+********************************************/
+
+
+/*+++++++++++++++++++++++++++
+Map
+++++++++++++++++++++++++++++++++++++++*/
+/* #master_container {
+    font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+    text-transform: none !important;
+    position: relative;
+    width: 100%;
+    height: 800px;
+ }*/
+
+        #map { 
+            position:absolute; 
+            top:0; 
+            height: 100%; 
+            width:100%;
+            z-index: -2;
+        }
+
+        .rowDOE {
+            margin-bottom: 10px;
+        }
+
+        .rowDOE .green-text    {
+            color: rgb(140,198,63) !important;
+        }
+
+        .rowDOE .white-text    {
+            color: #fff !important;
+        }
+
+        /*Typography*/
+
+        .rowDOE h1, .rowDOE h2, .rowDOE h3, .rowDOE h4 {
+            text-align: center;
+            border:none
+        }
+
+        .rowDOE h1 {
+            font-size: 33px;
+            letter-spacing: 7px;
+            color: rgb(51,51,51) !important;
+            line-height: normal;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;            
+            text-decoration: none !important;
+        }
+
+        .rowDOE h2 {
+            font-size: 38px;
+            color: #fff !important;
+            text-transform: none;
+            line-height: normal;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-family: "Avenir LT W02 35 Light",verdana,sans-serif;
+            letter-spacing: .1rem;
+        }
+
+        .rowDOE h3 {
+            font-size: 23px;
+            color: #fff !important;
+            margin-top: 0.5rem;
+            margin-bottom: 0.6rem;
+            text-transform: none;
+            line-height: normal;
+        }
+
+        .rowDOE h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+            margin-bottom: 0.4rem;
+            color: rgb(0, 0, 0) !important;
+        }
+
+        .rowDOE .inner-text {
+            font-size: 28px;
+            text-transform: uppercase;
+            font-family: "Avenir LT W02 85 Heavy",verdana,sans-serif;
+            letter-spacing: .1rem;
+            line-height: normal;                 
+            color: #333 !important;
+        }
+
+        .q-number {
+            z-index: 100;
+            width: 60px;
+            height: 60px;
+            padding-top: 14px;
+            padding-left: 20px;
+            background-color: #fff;
+            /*position: absolute;*/
+        }
+
+/*
+        .rowDOE .inner-text.q-number {position: absolute;}
+        .rowDOE .inner-text.large-8 {position: absolute;}*/
+
+        .inner-text p {
+            text-align: center;
+        }
+
+        #select-text h4 {
+            color: #fff !important;
+        }       
+
+        .context-info p,.subheadline p {
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;            
+            margin: 0 !important;
+            line-height: normal;
+            color: rgb(68,68,68) !important;
+            padding-top: 8px !important; 
+            padding-bottom: 8px !important;
+            font-family: "Avenir LT W02 35 Light",verdana,sans-serif;
+            border-bottom: none !important;
+        }       
+
+    /* The Colors duke, the colors*/
+        .header-color {
+            background-color: rgb(140,198,63);
+        }
+
+        .headline {
+            background-color: rgb(51,51,51)
+        }
+
+    /*Other*/
+
+        .sub-blocks-full {
+            padding-left: 0px;
+            height: 350px;
+        }
+
+        .subheadline {
+            background-color: rgb(197,225,159); 
+        }
+
+        .rowDOE .context-info {
+            padding-top: 0px;
+        }
+
+        .context-container {
+            display: none;
+        }
+
+        .context-container.active {
+            display: block;
+        }
+
+        .context-info {
+            /*background-color: rgb(168,212,110);*/
+            background-color: transparent;
+        }
+
+        .triple {
+            padding-left: 0rem;
+            padding-right: 0rem;
+            padding-bottom: .5rem;
+        }
+
+        .third-blocks {
+            background-color: rgb(197,225,159);
+            height: 240px;
+            position: relative;
+        }
+
+        .third-blocks.top {
+            height: 190px;
+            padding-top: 20px;
+            position: relative;
+        }
+
+        .third-blocks.top div {
+            margin: 0 auto;
+            /*width: 51px;*/
+        }
+        .triple:first-child .third-blocks.top div {
+            margin: 0 auto;
+            /*width: 228px;*/
+        }
+        .triple:last-child .third-blocks.top div {
+            margin: 0 auto;
+            /*width: 112px;*/
+            padding-top: 10px;
+        }
+
+        .third-blocks.top div img{
+            /*width: 100%;*/
+            margin: 0 auto;
+            display: block;
+            height: auto;
+        }
+
+        .unit {
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+            padding-bottom: 10px;
+            font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+            color: rgb(68,68,68) !important;
+        }
+
+
+        .middle-block {
+            background-color: rgb(168,212,110) !important;
+            height: 90px;
+            padding-top: 5px;
+        }
+
+/*Was .middle-block p*/
+        .a-bg p, .score p {
+            border-bottom: none !important;     
+            margin:0px !important;
+            text-align: center;
+            color: rgb(12,15,8) !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+            font-size: 17px;            
+            font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+        }
+
+/*Text before your score*/
+        .score p {
+            font-size: 15px;
+            text-align: center !important;
+        }
+
+        .green {
+            background-color: rgb(197,225,159); 
+        }
+
+        .outside {
+            height: 74px;
+            background-color: rgb(140,198,63);
+            transition: background-color 300ms ease-out;
+        }
+
+        .outside:hover {
+            cursor: pointer;
+            background-color: #fff;
+            background-color: rgb(197,225,159);
+            transition: background-color 300ms ease-out;
+
+        }
+
+        .triangle {
+            position: relative;
+            top: 20px;
+            border-top: 17px solid transparent;
+            border-bottom: 17px solid transparent; 
+            width: 0; 
+            height: 0;          
+        }
+
+        #right-tri {            
+            left: 10px;
+            border-left: 35px solid #fff; 
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #left-tri {
+            left: 8px;          
+            border-right: 35px solid #fff; 
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #totalBTU {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;   
+        }
+
+        .full-size-blocks {
+            /*border: 1px solid rgb(151,203,81);*/
+            overflow: hidden;
+        }       
+
+        .dropdown {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        /*
+        #results:hover {
+            cursor: pointer;
+            background-color: rgb(197,225,159);  
+        }
+
+        #results h1:hover {
+            text-decoration: none !important;
+        }*/
+        #results {
+            border-style: solid;
+            border-width: 0px;
+            line-height: normal;
+            text-decoration: none !important;
+            text-align: center;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0;
+            /*padding-top: 1rem;
+            padding-right: 2rem;
+            padding-bottom: 1.0625rem;
+            padding-left: 2rem;*/            
+            background-color: #008cba;
+            border-color: #007095;
+            transition: background-color 300ms ease-out;
+            /*Turn off highlight*/
+            /*-webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;*/
+        }
+
+        #results h1 {
+            text-transform: uppercase !important;
+            color: #fff !important;
+            /*color: rgb(51,51,51)*/
+
+        }
+
+        .inner-text p {
+        margin-bottom: 10px !important; 
+        }
+
+        #results:hover {
+            background-color: rgb(0,112,149); 
+            transition: background-color 300ms ease-out;
+        }
+
+        .result-text {
+            display: none;
+        }
+
+        .result-text.active {
+            display: block;
+        }
+
+        /*Scroll bar*/
+
+        ul#drop {
+            max-height: 200px;
+            overflow: scroll;
+        }
+
+        #dropdiv {
+            cursor: pointer;
+            transition: background-color 300ms ease-out;
+
+        }
+
+        #dropdiv:hover {
+            background-color: #d7eabd;
+            transition: background-color 300ms ease-out;            
+            /*Turn off highlight*/
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .f-dropdown li {
+            padding-left: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+
+        .f-dropdown {
+            left: 15px !important;
+        }
+
+        .close {
+            left: -99999px !important;            
+        }
+
+        /*Marty McFly*/
+        .map-image {
+            /*background-image:url('/img/backandclock.jpg');*/
+/*            background-image:url('../img/production.png');
+            background-position: 50% 10%;
+            background-repeat: no-repeat;*/
+            background-color: rgb(221,221,221);
+            /*overflow:hidden;*/
+            padding: 0px;
+        }
+
+        .map-image img {                        
+            margin: 0 auto;
+            display: block;
+            height: auto;
+        }
+
+        .map-image img.force-full {
+            width: 100%;
+        }
+
+        .answers_block {
+            margin-right: -10px !important;
+            margin-left: -10px !important;
+        }
+
+        .a-options {
+            /*padding-top: 10px;
+            padding-bottom: 10px;      */    
+            padding-left: 0rem;
+            padding-right: 0rem;       
+            padding-bottom: 0.56rem;  
+            font-size: 16px;
+        }
+
+        .a-bg {
+            border: 5px solid transparent;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            background-color: rgb(221,221,221);                    
+            cursor: pointer;
+/*            line-height: normal;
+            position: relative;*/
+            text-decoration: none !important;            
+            -webkit-appearance: none;
+            -webkit-border-radius: 0;
+            /*display: inline-block;           */
+            transition: background-color 300ms ease-out;
+        }
+
+        .a-bg.correct.active {
+            background-color: rgb(140,198,63);
+        }
+
+        .a-bg.correct.inactive {
+            border-color: rgb(140,198,63);
+        }
+
+        .a-bg.active {
+            background-color: #ED4D61;
+        }
+
+        .a-bg p {
+            text-align: left;
+        }
+
+        /*.a-bg h2 {
+            text-transform: uppercase !important;
+            color: rgb(51,51,51)
+        }*/
+
+        .a-bg:hover {
+            cursor: pointer;
+            background-color: rgb(0,112,149); 
+            transition: background-color 300ms ease-out;
+        }
+
+        .halves {
+            padding: 0px !important;
+        }
+
+
+        .tweener {
+            padding-top: 0px;
+            height: 25px;
+            /*background-color: rgb(140,198,63); */
+            background-color: transparent;
+        }
+
+        span.nub {
+            border-color:#888 ;
+        }
+
+        .tooltip.tip-top > .nub {
+            border-color: #888 transparent transparent transparent  ;
+        }
+
+        .tooltip.tip-bottom > .nub {
+            border-color:  transparent transparent #888 transparent  ;
+        }
+
+        .tooltip {
+            background-color: #888 ;
+        }
+    
+    #result_text p {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+    }
+
+    #result h1 {
+    }
+
+    .middle-block .below-text {
+        font-size: 13px;
+        padding: 0px !important;
+    }
+
+    .middle-block .below-text span.red {
+        color: red;
+    }
+
+    .middle-block .below-text span.blue {
+        color: blue;
+    }
+
+
+
+@media only screen and (min-width: 40.063em) { 
+        .rowDOE h1 {
+            font-size: 52px;        
+            letter-spacing: 15px;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .triple {
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
+            padding-bottom: 0rem;
+        }
+
+        .triple:first-child {
+            padding-left: 0px;   
+            padding-right: 0.56rem;         
+        }
+
+        .triple:last-child {
+            padding-right: 0px;         
+            padding-left: 0.56rem;
+        }
+
+        .a-options:first-child {
+            padding-right: 0.4rem;
+        }
+
+        .a-options:last-child {
+            padding-left: 0.4rem; 
+        }
+/*        .halves .a-options {
+            padding-right: 1rem;
+        }*/
+
+
+    } /* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) { 
+        .dropdown {
+            padding-left: 0.9375rem;
+            padding-right: 0.9375rem;
+        }
+        .a-options {
+            padding-right: 0.4rem; 
+            padding-left: 0.4rem;
+        }
+        .a-options.last-c {
+            padding-right: 0rem;         
+        }
+        .a-options.first-c {
+            padding-left: 0rem;         
+        }        
+    } /* min-width 1025px, large screens */
+
+
+@media only screen and (max-width: 480px) { 
+        .rowDOE h2 {
+            font-size: 30px;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            letter-spacing: .05rem;
+        }
+        .context-info p,.subheadline p {
+            font-size: 17px;
+            padding-top: .25rem;
+            padding-bottom: .25rem
+        }
+        
+        .rowDOE h3 {
+            font-size: 16px;
+            margin-top: .25rem;
+            margin-bottom: .25rem;
+        }
+
+        .middle-block p {
+            padding-top: 03px !important;
+            padding-bottom: 5px !important;
+            font-size: 14px;
+        }
+
+        .middle-block {
+            height: 75px !important; 
+        }
+
+        .sub-blocks-full {
+            height: 300px
+        }
+
+        .rowDOE .inner-text {
+            font-size: 18px !important;
+            line-height: 18px !important; 
+            letter-spacing: 0rem;
+        }
+
+}
+
+
+@media only screen and (max-width: 320px) { 
+    #sub-blocks-full {
+        height: 300px;
+    }
+    .rowDOE h1 {
+        font-size: 28px
+    }
+    .rowDOE h2 {
+            font-size: 26px;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            letter-spacing: .025rem;
+        }
+}
+
+
+
+.has-tip {
+    border-bottom: dotted 1px #fff;
+}

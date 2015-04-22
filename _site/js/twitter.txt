@@ -1,0 +1,28 @@
+http://twitter.com/home?status=I got X/X questions right on @energy's power plant quiz. Test your knowledge and see how you stack up http://bit.ly/PowerPlantsQuiz
+
+
+http://twitter.com/home?status=I%20got%20X%2FX%20questions%20right%20on%20%40energy%27s%20power%20plant%20quiz.%20Test%20your%20knowledge%20and%20see%20how%20you%20stack%20up%20http%3A%2F%2Fbit.ly%2FPowerPlantsQuiz
+
+
+http://www.washingtonpost.com/blogs/wonkblog/wp/2015/01/30/quiz-can-you-name-a-food-just-by-looking-at-where-it-comes-from/#
+
+http://www.washingtonpost.com/blogs/wonkblog/wp/2015/01/30/quiz-can-you-name-a-food-just-by-looking-at-where-it-comes-from/#
+
+https://twitter.com/intent/tweet?text=I%20got%203%2F12%20on%20Do%20you%20know%20where%20your%20food%20comes%20from%3F&url=http%3A%2F%2Fwapo.st%2F1BDO6xQ&via=washingtonpost&original_referer=http%3A%2F%2Fwww.washingtonpost.com%2Fblogs%2Fwonkblog%2Fwp%2F2015%2F01%2F30%2Fquiz-can-you-name-a-food-just-by-looking-at-where-it-comes-from%2F
+
+https://www.facebook.com/dialog/feed?display=popup&%20app_id=41245586762&link=http://wapo.st/1BDO6xQ&name=I%20got%203/12%20on%20Do%20you%20know%20where%20your%20food%20comes%20from?&description=I%27ll%20put%20food%20on%20a%20map%20and%20you%27ll%20tell%20me%20what%20it%20is.&redirect_uri=http://www.washingtonpost.com/wp-srv/social/shareSuccess.html
+
+
+https://www.facebook.com/dialog/feed?display=popup& app_id=41245586762
+&link=http://wapo.st/1BDO6xQ
+
+&name=I got 3/12 on Do you know where your food comes from?
+
+&description=I'll put food on a map and you'll tell me what it is.
+
+https://www.facebook.com/dialog/feed?display=popup
+&%20app_id=41245586762
+&link=http://wapo.st/1BDO6xQ
+&name=I%20got%204/12%20on%20Do%20you%20know%20where%20your%20food%20comes%20from?
+&description=I%27ll%20put%20food%20on%20a%20map%20and%20you%27ll%20tell%20me%20what%20it%20is.
+&redirect_uri=http://www.energy.gov/
